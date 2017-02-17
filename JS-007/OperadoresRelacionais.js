@@ -1,0 +1,16 @@
+var logico = true;
+var num = 10;
+var texto = "10";
+document.write(logico+"<br>");
+logico = num == texto;
+document.write("10 == \ "10 \""+logico+<br>);
+logico=num === texto;
+document.write("10 == \"10\""+logico+<br>);
+logico=num != texto;
+document.write("10 ==\"10\""+logico+<br>);
+logico=num !== texto;
+document.write("10 ==\"10\""+logico+<br>);
+logico=num > texto;
+document.write("10 ==\"10\""+logico+<br>);
+logico=num >= texto;
+document.write("10 ==\"10\""+logico+<br>);

@@ -1,0 +1,12 @@
+a="10";
+document.write("A variável A é do tipo "+typeof a +"<br>");
+a = parseInt(a);
+document.write("A variável A agora é do tipo "+typeof a+"<br>");
+document.write("Valor de A: "+a+"<br>");
+b = "12.45";
+document.write("A variável B é do tipo "+typeof b+"<br>");
+document.write("Valor de B: "+b+"<br>");
+b=parseInt(b);
+document.write("A variável B agora é do tipo "+typeof b+"<br>");
+document.write("Valor de A: "+a+"<br>");
+document.write("Valor de B: "+b);
